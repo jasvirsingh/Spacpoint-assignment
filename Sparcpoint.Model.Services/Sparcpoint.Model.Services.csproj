@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sparcpoint.Data.Access\Sparcpoint.Data.Access.csproj" />
+    <ProjectReference Include="..\Sparcpoint.Infrastructure\Sparcpoint.Infrastructure.csproj" />
+    <ProjectReference Include="..\Sparcpoint.Model\Sparcpoint.Model.csproj" />
+  </ItemGroup>
+
+</Project>

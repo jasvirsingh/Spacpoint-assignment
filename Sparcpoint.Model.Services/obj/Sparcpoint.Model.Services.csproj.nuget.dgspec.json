@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model.Services\\Sparcpoint.Model.Services.csproj": {}
+  },
+  "projects": {
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\Sparcpoint.Data.Access.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\Sparcpoint.Data.Access.EF.csproj",
+        "projectName": "Sparcpoint.Data.Access.EF",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\Sparcpoint.Data.Access.EF.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\Sparcpoint.Data.Access.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\Sparcpoint.Data.Access.csproj",
+        "projectName": "Sparcpoint.Data.Access",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\Sparcpoint.Data.Access.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\Sparcpoint.Data.Access.EF.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access.EF\\Sparcpoint.Data.Access.EF.csproj"
+              },
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj"
+              },
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj",
+        "projectName": "Sparcpoint.Data",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\Sparcpoint.Data.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj",
+        "projectName": "Sparcpoint.Infrastructure",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model.Services\\Sparcpoint.Model.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model.Services\\Sparcpoint.Model.Services.csproj",
+        "projectName": "Sparcpoint.Model.Services",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model.Services\\Sparcpoint.Model.Services.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\Sparcpoint.Data.Access.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Data.Access\\Sparcpoint.Data.Access.csproj"
+              },
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Infrastructure\\Sparcpoint.Infrastructure.csproj"
+              },
+              "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\Sparcpoint.Model.csproj": {
+                "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\Sparcpoint.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\Sparcpoint.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\Sparcpoint.Model.csproj",
+        "projectName": "Sparcpoint.Model",
+        "projectPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\Sparcpoint.Model.csproj",
+        "packagesPath": "C:\\Users\\Just Jassy\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview Project Assignment\\TekSystems\\Development Project\\Sparcpoint.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Just Jassy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

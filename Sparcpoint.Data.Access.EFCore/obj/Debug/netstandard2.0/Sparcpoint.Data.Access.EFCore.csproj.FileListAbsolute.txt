@@ -1,0 +1,4 @@
+E:\Interview Project Assignment\TekSystems\Development Project\Sparcpoint.Data.Access.EFCore\bin\Debug\netstandard2.0\Sparcpoint.Data.Access.EFCore.deps.json
+E:\Interview Project Assignment\TekSystems\Development Project\Sparcpoint.Data.Access.EFCore\bin\Debug\netstandard2.0\Sparcpoint.Data.Access.EFCore.dll
+E:\Interview Project Assignment\TekSystems\Development Project\Sparcpoint.Data.Access.EFCore\obj\Debug\netstandard2.0\Sparcpoint.Data.Access.EFCore.AssemblyInfoInputs.cache
+E:\Interview Project Assignment\TekSystems\Development Project\Sparcpoint.Data.Access.EFCore\obj\Debug\netstandard2.0\Sparcpoint.Data.Access.EFCore.AssemblyInfo.cs
